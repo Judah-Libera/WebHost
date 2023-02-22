@@ -4,20 +4,31 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	padding-bottom: 50px;
 }
 
 html {
 	font-family: century-gothic, sans-serif;
 	font-weight: 400;
 	font-style: normal;
+	color: #ffb8b8;
+	font-size: 120%;
 }
 
 h1 {
-	color: black;
+	color: white;
 	text-align: center;
 	font-size: 300%;
 	padding-top: 30px;
 	padding-bottom: 30px;
+}
+
+h2 {
+	color: #ffb8b8;
+	text-align: center;
+	font-size: 200%;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 ul.nav {
@@ -44,12 +55,12 @@ li.nav a {
 }
 
 li.nav:hover {
-	background-color: #ff7070;
+	background-color: #990000;
 	border-radius: 25px;
 }
 
 .box {
-	background: linear-gradient(45deg, #4d0000, black);
+	background: linear-gradient(45deg, #4d0000, #5c0000);
 	width: 385px;
 	position: relative;
 	top: 20px;
@@ -60,13 +71,19 @@ li.nav:hover {
 	margin: auto;
 }
 
-
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
 
 
 .w3-theme {
 	color: #fff !important;
 	background-color: #3f51b5 !important
 }
+
 .w3-theme-gradient {
 	color: #000 !important;
 	background: -webkit-linear-gradient(top, #64B5F6 25%, #42A5F5 75%)

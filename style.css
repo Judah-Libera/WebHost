@@ -61,7 +61,7 @@ li.nav:hover {
 
 .box {
 	background: linear-gradient(45deg, #4d0000, #5c0000);
-	width: 385px;
+	width: 750px;
 	position: relative;
 	top: 20px;
 	border: 5px solid white;
@@ -90,11 +90,11 @@ li.nav:hover {
 }
 
 .resumeheader {
-	background: #ffb8b8;
+	background: #4d0000;
 	top: 20px;
 	border: 5px solid black;
 	border-style: outset;
-	border-radius: 25px;
-	padding: 50px;
+	border-radius: 50px;
+	padding: 10px;
 	margin: auto;
 }

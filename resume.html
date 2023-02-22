@@ -5,6 +5,34 @@
 	<meta charset="UTF-8">
 	<meta htp-equiv="X-UA-Compatible" content="IE=edge">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+		.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+	</style>
 	<title>Resume</title>
 </head>
 
@@ -22,8 +50,32 @@
 	</ul>
 
 	<div class="box">
-		<h1>resume</h1>
-		<p>placeholder</p>
+		<h1>Skills</h1>
+		<ul>
+			<li class="tooltip">
+				C
+				<p class="tooltiptext">Experienced<br/>My general use go to language. Lots of use in UCF Classes</p>
+			</li>
+			<li>
+				C++
+				<p class="tooltiptext">Experienced<br/>The language I use for my larger personal Projects.</p>
+			</li>
+			<li>Java</li>
+			<li>Python</li>
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>JavaScript</li>
+			<li>PHP</li>
+			<li>MySQL</li>
+			<li>Git</li>
+			<li>Command Line</li>
+			<li>Windows</li>
+		</ul>
+	</div>
+
+	<div class="box">
+		<h1>Education</h1>
+		<h3>University of Central Florida</h3><p>Bachlors of Computer Science, graduation Spring 2023<br/>GPA 3.05<br/>Electives focused on FullStack development and AI</p>
 	</div>
 
 </body>

@@ -1,0 +1,73 @@
+body {
+	background-image: url('bg.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+html {
+	font-family: century-gothic, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+h1 {
+	color: black;
+	text-align: center;
+	font-size: 300%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+ul.nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background: linear-gradient(45deg, #4d0000, black);
+	text-align: center;
+	border-radius: 25px;
+}
+
+li.nav {
+	float: left;
+}
+
+li.nav a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 15px 100px;
+	text-decoration: none;
+	font-size: large;
+}
+
+li.nav:hover {
+	background-color: #ff7070;
+	border-radius: 25px;
+}
+
+.box {
+	background: linear-gradient(45deg, #4d0000, black);
+	width: 385px;
+	position: relative;
+	top: 20px;
+	border: 5px solid white;
+	border-style: outset;
+	border-radius: 25px;
+	padding: 50px;
+	margin: auto;
+}
+
+
+
+
+.w3-theme {
+	color: #fff !important;
+	background-color: #3f51b5 !important
+}
+.w3-theme-gradient {
+	color: #000 !important;
+	background: -webkit-linear-gradient(top, #64B5F6 25%, #42A5F5 75%)
+}

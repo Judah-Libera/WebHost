@@ -88,3 +88,13 @@ li.nav:hover {
 	color: #000 !important;
 	background: -webkit-linear-gradient(top, #64B5F6 25%, #42A5F5 75%)
 }
+
+.resumeheader {
+	background: #ffb8b8;
+	top: 20px;
+	border: 5px solid black;
+	border-style: outset;
+	border-radius: 25px;
+	padding: 50px;
+	margin: auto;
+}

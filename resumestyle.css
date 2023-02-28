@@ -1,0 +1,174 @@
+body {
+	background-color:#3f51b5;
+      font-family: 'Courier New', Courier, monospace;
+	padding-bottom: 50px;
+}
+
+html {
+	font-weight: 750;
+	font-style: normal;
+	font-size: 150%;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	font-size: 350%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+h2 {
+	color: black;
+	text-align: center;
+	font-size: 150%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+ul.nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background: linear-gradient(45deg, #4d0000, black);
+	text-align: center;
+	border-radius: 25px;
+}
+
+li.nav {
+	float: left;
+}
+
+li.nav a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 15px 100px;
+	text-decoration: none;
+	font-size: large;
+}
+
+li.nav:hover {
+	background-color: #990000;
+	border-radius: 25px;
+}
+
+.box {
+	background-color: #64B5F6;
+	position: relative;
+	top: 20px;
+	border: 5px solid black;
+	border-style: outset;
+	border-radius: 25px;
+	padding: 50px;
+      display: inline-block;
+}
+
+.subbox {
+      background-color: white;
+      position: relative;
+      top: 20px;
+      border: 5px solid black;
+      border-style: outset;
+      border-radius: 25px;
+      padding: 50px;
+      margin: auto;
+}
+
+.personalprojects {
+      background-color: #42A5F5;
+      position: relative;
+      top: 20px;
+      border: 5px solid black;
+      border-style: outset;
+      border-radius: 25px;
+      padding: 50px;
+      margin: auto;
+}
+
+.dgslogo {
+      float: right;
+      border-radius: 50%;
+      width: 150px;
+      position: relative;
+}
+
+.dgslogotxt {
+      visibility: hidden;
+      width: 90px;
+      position: absolute;
+      top: 18px;
+      right: 34px;
+      color:white;
+      font-size: 90%;
+}
+
+.logo {
+      position: relative;
+      width: 150px;
+      border-radius: 50%;
+      float: right;
+}
+
+.logo:hover .dgslogotxt{
+      visibility: visible;
+}
+.logo:hover .dgslogo {
+      opacity: .5;
+}
+
+.tooltip {
+  position: relative;
+  list-style-type: none;
+  margin: 10px;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 250px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  padding: 15px 0;
+  font-size: 80%;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+
+.w3-theme {
+	color: #fff !important;
+	background-color: #3f51b5 !important
+}
+
+.w3-theme-gradient {
+	color: #000 !important;
+	background: -webkit-linear-gradient(top, #64B5F6 25%, #42A5F5 75%)
+}
+
+.resumeheader {
+	background: #42A5F5;
+	top: 20px;
+	border: 5px solid black;
+	border-style: outset;
+	border-radius: 50px;
+	padding: 10px;
+	margin: auto;
+}

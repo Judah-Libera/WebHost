@@ -4,56 +4,26 @@
 <head>
 	<meta charset="UTF-8">
 	<meta htp-equiv="X-UA-Compatible" content="IE=edge">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<style>
-.tooltip {
-  position: relative;
-  list-style-type: none;
-  margin: 10px;
-}
-
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 200px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 10px;
-  padding: 15px 0;
-  
-  /* Position the tooltip */
-  position: absolute;
-  z-index: 1;
-  bottom: 100%;
-  left: 50%;
-  margin-left: -60px;
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-}
-	</style>
+	<link rel="stylesheet" type="text/css" href="resumestyle.css">
 	<title>Resume</title>
 </head>
 
 <script src="script.js"></script>
 
 <body>
-
-	<ul class="nav">
-		<li class="nav"><a href="index.html">Home</a></li>
-		<li class="nav"><a href="resume.html">Resume</a></li>
-		<li class="nav"><a href="deadstudio.html">Dead Studio</a></li>
-	</ul>
-
 	<div class="resumeheader">
+		<a href="deadstudio.html"><div class="logo">
+			<img id="logo" src="deadstudiologo.jpg" alt="Dead Studio Logo" class="dgslogo">
+			<p id="logotxt" class="dgslogotxt">Personal Projects Showcase</p>
+		</div></a>
 		<h1>Judah Libera</h1>
 		<h2>judahlibera@gmail.com	-	(407)773-0574</h2>
 	</div>
 
-	<div style="text-align: center;">
-	<div class="box"  style="display:inline-block;">
+	<div style="text-align:center;">
+	<div class="box">
 		<h1>Skills</h1>
+		<div class="subbox">
 		<ul style="display:inline-block;">
 			<li class="tooltip">
 				C
@@ -114,16 +84,19 @@
 				<p class="tooltiptext">-Novice-<br/>Basic familiarity with hosting web projects using OceanDigital and CloudFlare.</p>
 			</li>
 		</ul>
+		</div>
 	</div>
 
-	<div class="box" style="display:inline-block;">
+	<div class="box">
 		<h1>Education</h1>
-		<h3>University of Central Florida</h3>
+		<div class="subbox">
+		<h3>University of Central Florida</h3>	
 		<ul style="list-style-type: none">
 			<li>Bachlors of Computer Science, graduation Spring 2023</li>
 			<li>GPA 3.05</li>
 			<li>Electives focused on FullStack development and AI</li>
 		</ul>
+		</div>
 	</div>
 	</div>
 
